@@ -3,70 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nyxploit LLC</title>
+  <title>Nyxploit LLC — Offline, AI-Accelerated Embedded Security</title>
+  <meta name="description" content="Nyxploit LLC — offline, AI-accelerated vulnerability research and assessment for embedded and firmware systems. Commercial and private sector only.">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0e0e0e;
-      color: #e0e0e0;
-      text-align: center;
-      padding: 5% 5%;
+    :root{
+      --bg:#0e0e0e; --text:#e8e8e8; --muted:#b8b8b8; --dim:#8f8f8f;
+      --accent:#5fb3a3; --rule:#262626;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.1em;
-    }
-    h2 {
-      font-weight: normal;
-      color: #aaa;
-      font-size: 1.2em;
-      margin-bottom: 4em;
-    }
-    p {
-      font-size: 1em;
-      color: #888;
-      margin: 0.3em 0;
-    }
-    .spacer {
-      margin-bottom: 4em;
-    }
-    @media (max-width: 600px) {
-      body {
-        padding: 5% 5%;
-      }
-    }
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);
+         color:var(--text);margin:0;line-height:1.55;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:720px;margin:0 auto;padding:11vh 24px 7vh}
+    h1{font-size:2.6em;letter-spacing:.5px;margin:0 0 .12em}
+    .accent{color:var(--accent)}
+    .tag{color:var(--muted);font-size:1.15em;font-weight:400;margin:0}
+    .lead{color:var(--dim);margin:1.4em 0 0;font-size:1em;max-width:56ch}
+    section{margin:2.4em 0;padding-top:2.3em;border-top:1px solid var(--rule)}
+    h3{font-size:1.05em;margin:0 0 .8em;letter-spacing:.3px}
+    .svc{margin:1.4em 0}
+    .svc h4{margin:0 0 .2em;font-size:1em;color:var(--text)}
+    .svc p{margin:0;color:var(--dim);font-size:.97em}
+    section>p{color:var(--muted);margin:.4em 0;font-size:.97em}
+    .focus{color:var(--text)}
+    .cta{display:inline-block;margin-top:.7em;padding:.6em 1.2em;border:1px solid var(--accent);
+         color:var(--accent);text-decoration:none;border-radius:4px;font-size:.95em}
+    .cta:hover{background:var(--accent);color:var(--bg)}
+    footer{margin-top:3.4em;padding-top:1.8em;border-top:1px solid var(--rule);color:var(--dim);font-size:.85em}
+    footer p{margin:.2em 0}
   </style>
 </head>
 <body>
-  <h1>Nyxploit LLC</h1>
-  <h2><strong>Commercial Cybersecurity<br>
-    Assessments & Research</strong></h2>
+  <div class="wrap">
+    <header>
+      <h1>Nyxploit<span class="accent">.</span></h1>
+      <p class="tag">Offline, <span class="accent">AI-accelerated</span> security research for embedded systems</p>
+      <p class="lead">Commercial vulnerability research and assessment driven by custom AI-agentic analysis
+        pipelines, purpose-built for deeply embedded, stripped, and legacy systems. Work runs air-gapped —
+        your firmware and data never leave the environment.</p>
+    </header>
 
-  <p><strong><u>Commercial Vulnerability Assessments</u></strong></p>
-  <p class="spacer">Identification of security flaws<br>
-    in consumer-facing web applications<br>
-    and enterprise software</p>
-  
-  <p><strong><u>Public Bug Bounty Research</u></strong></p>
-  <p class="spacer">Participation in managed<br>
-    commercial disclosure programs</p>
-  
-  <p><strong><u>Legacy System Auditing</u></strong></p>
-  <p class="spacer">Specialized reverse engineering<br>
-    for private entities looking to secure<br>
-    or maintain legacy commercial software</p>
-  
-  <p><strong><u>Commercial Tooling</u></strong></p>
-  <p class="spacer">Development of automation<br>
-    for internal security compliance<br>
-    and private sector threat modeling</p>
-  
-  <p class="spacer">sean@nyxploit.com</p>
-  
-  <p class="spacer">Nyxploit does not provide services<br>
-    to US Government agencies<br>
-    or prime defense contractors</p>
-  
-  <p>Nyxploit™ is a trademark of Nyxploit LLC</p>
+    <section>
+      <h3><span class="accent">What we do</span></h3>
+      <div class="svc">
+        <h4>Commercial Vulnerability Assessments</h4>
+        <p>Offline identification, triage, and remediation guidance for embedded systems security flaws.</p>
+      </div>
+      <div class="svc">
+        <h4>Legacy System Auditing</h4>
+        <p>Specialized hardware reverse engineering to help private entities secure and maintain legacy commercial systems.</p>
+      </div>
+      <div class="svc">
+        <h4>Public Bug Bounty Research</h4>
+        <p>Participation in managed commercial programs under coordinated, responsible-disclosure terms.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3><span class="accent">How we work</span></h3>
+      <p>Every engagement is performed under written authorization and a defined scope.</p>
+      <p>Assessments run offline — client firmware, data, and findings stay confidential.</p>
+      <p>Nyxploit works <span class="focus">exclusively in the commercial and private sector</span>. We do not
+        provide services to US Government agencies or prime defense contractors.</p>
+    </section>
+
+    <section>
+      <h3><span class="accent">Engage</span></h3>
+      <p>For scoping or inquiries:</p>
+      <a class="cta" href="mailto:sean@nyxploit.com">sean@nyxploit.com</a>
+    </section>
+
+    <footer>
+      <p>Nyxploit™ is a trademark of Nyxploit LLC.</p>
+    </footer>
+  </div>
 </body>
 </html>
